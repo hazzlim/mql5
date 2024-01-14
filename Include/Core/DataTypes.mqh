@@ -7,7 +7,7 @@
 
 typedef int color;
 typedef std::string string;
-typedef std::string datetime;
+typedef int datetime;
 typedef unsigned char uchar;
 typedef unsigned int uint;
 typedef unsigned long ulong;
