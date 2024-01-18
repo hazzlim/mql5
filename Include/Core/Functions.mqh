@@ -769,7 +769,8 @@ template <typename T> ENUM_POINTER_TYPE CheckPointer(T anyobject);
  * invisible symbols) cannot exceed 2045 characters (excess symbols will be cut
  * out during output).
  */
-void Comment(...);
+template<typename T>
+void Comment(T&...);
 
 /**
  * Transforms the data from array with the specified method.
